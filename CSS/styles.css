@@ -5,15 +5,17 @@
     --primary-white-color: #FFFFFF;
 }  
 
-
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
 }
 
+
 .list {
     list-style: none;
 }
+
+/* Студия*/
 
 .logo {
     color: var(--accent-color);
@@ -23,7 +25,6 @@ body {
     color:var(--title-text-color);
 }
 
-/* site nav */
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -38,13 +39,11 @@ body {
     color:var(--accent-color);
 }
 
-/* contacts */
 
 .contacts .link {
     color: var(--primary-text-color);
 }
 
-/* hero */
 
 .hero {
     background-color: #2F303A;
@@ -64,22 +63,44 @@ body {
     background-color: var(--accent-color);
 }
 
-/* section */
 
 .section-title {
     color:var(--title-text-color);
 }
 
-/* rules */
-
-.rules-list .title {
+.list .title {
     color: var(--title-text-color)
 }
 
-.team-list .title {
-    color: var(--title-text-color);
+.section.team {
+    background-color: #F5F4FA;
 }
 
+.footer .link {
+    color: rgba(255, 255, 255, 0.6)
+}
 
+.footer {
+    background-color: #2F303A;
+}
 
+.footer span {
+    color: var(--primary-white-color)
+}
 
+.footer .adress {
+    color: var(--primary-white-color)
+}
+
+/* Портфолио */
+
+.filter .button.current {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color)
+}
+
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
