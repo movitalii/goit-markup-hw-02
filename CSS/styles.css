@@ -154,7 +154,7 @@ button {
     background-color: var(--primary-team-bg-color) ;
 }
 
-.section-team h2 {
+.section-team .title {
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -163,7 +163,7 @@ button {
     text-align: center;
 }
 
-.section-team h3 {
+.section-team .title-mamber {
     color: var(--title-text-color);
 
     font-weight: 500;
