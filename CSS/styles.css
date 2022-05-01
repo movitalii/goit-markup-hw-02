@@ -3,6 +3,10 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
+    --primary-button-bg-color: #F5F4FA;
+    --primary-footer-text-color:rgba(255, 255, 255, 0.6);
+    --primary-footer-bg-color: #2F303A;
+    --primary-team-bg-color: #F5F4FA;
 }  
 
 body {
@@ -78,11 +82,11 @@ body {
 }
 
 .section-hero {
-    background-color: #2F303A;
+    background-color: var(--primary-footer-bg-color);
 }
 
 .section-hero .title {
-    color:#FFFFFF;
+    color: var(--primary-white-color);
 
     font-weight: 900;
     font-size: 44px;
@@ -98,6 +102,7 @@ button {
     font-family: inherit;
 }
 
+
 .button {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
@@ -105,6 +110,8 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+
+    cursor: pointer;
 }
 
 .button.primary {
@@ -113,6 +120,8 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+
+    cursor: pointer;
 }
 
 
@@ -142,7 +151,7 @@ button {
 }
 
 .section-team {
-    background-color: #F5F4FA;
+    background-color: var(--primary-team-bg-color) ;
 }
 
 .section-team h2 {
@@ -164,22 +173,14 @@ button {
 }
 
 .section-team .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
 
-.footer .link {
-    color: rgba(255, 255, 255, 0.6);
-
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-}
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--primary-footer-bg-color);
 }
 
 .footer span {
@@ -195,17 +196,15 @@ button {
 }
 
 .footer .link {
-    color: rgba(255, 255, 255, 0.6);
-
+    color: var(--primary-footer-text-color);
+    
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 
 /* Портфолио */
-
-
-
 
 .portfolio .button:hover,
 .portfolio .button:focus {
@@ -214,7 +213,7 @@ button {
 }
 
 .portfolio .button {
-    background-color: #F5F4FA;;
+    background-color: var(--primary-button-bg-color);
    
     font-weight: 500;
     font-size: 16px;
