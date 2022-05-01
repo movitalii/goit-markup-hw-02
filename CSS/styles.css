@@ -214,6 +214,7 @@ button {
 .footer .link:focus {
     color: var(--accent-color);
 }
+
 /* Портфолио */
 
 .portfolio .button:hover,
