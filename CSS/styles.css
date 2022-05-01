@@ -4,10 +4,11 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --primary-button-bg-color: #F5F4FA;
-    --primary-footer-text-color:rgba(255, 255, 255, 0.6);
+    --primary-footer-text-color: rgba(255, 255, 255, 0.6);
     --primary-footer-bg-color: #2F303A;
     --primary-team-bg-color: #F5F4FA;
-}  
+    --accent-bg-hover-color: #188CE8;
+}
 
 body {
     background-color: var(--primary-bg-color);
@@ -30,12 +31,12 @@ body {
 
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;  
+    line-height: 1.19;
     text-decoration: none;
 }
 
 .logo span {
-    color:var(--title-text-color);
+    color: var(--title-text-color);
     font-family: Raleway, sans-serif;
 
     font-weight: 700;
@@ -48,7 +49,7 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
-    
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -62,7 +63,7 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
 
@@ -91,7 +92,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.44;
-        
+
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -124,17 +125,22 @@ button {
     cursor: pointer;
 }
 
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-bg-hover-color);
+}
 
 .section-rules .title {
-    color:var(--title-text-color);
-    
+    color: var(--title-text-color);
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-    
+
 .section-rules .text {
     font-size: 14px;
     line-height: 1.71;
@@ -151,7 +157,7 @@ button {
 }
 
 .section-team {
-    background-color: var(--primary-team-bg-color) ;
+    background-color: var(--primary-team-bg-color);
 }
 
 .section-team .title {
@@ -159,7 +165,7 @@ button {
 
     font-weight: 700;
     font-size: 36px;
-    line-height:1.17;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -189,7 +195,7 @@ button {
 
 .footer .adress {
     color: var(--primary-white-color);
-    
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -197,13 +203,17 @@ button {
 
 .footer .link {
     color: var(--primary-footer-text-color);
-    
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
 }
 
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
 /* Портфолио */
 
 .portfolio .button:hover,
@@ -214,7 +224,7 @@ button {
 
 .portfolio .button {
     background-color: var(--primary-button-bg-color);
-   
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -225,7 +235,7 @@ button {
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;  
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
@@ -233,4 +243,3 @@ button {
     font-size: 16px;
     line-height: 1.89;
 }
-
